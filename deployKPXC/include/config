@@ -1,0 +1,5 @@
+
+Host kpc
+  HostName alpine
+  User keepass-client
+  IdentityFile ~/.ssh/keys/private/Alpine.keepass-client.pri.keys
