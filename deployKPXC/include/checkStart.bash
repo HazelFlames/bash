@@ -1,5 +1,5 @@
 checkStart() { 
-  read -pr "Iniciar deploy do chaveiro Zeus via KeePassXC? [S/[N]] => " ESCOLHA
+  read -p -r "Iniciar deploy do chaveiro Zeus via KeePassXC? [S/[N]] => " ESCOLHA
   ESCOLHA=${ESCOLHA:-N}
   case $ESCOLHA in
     N|n)
